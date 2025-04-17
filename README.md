@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![Rigved's GitHub stats](https://github-readme-stats.vercel.app/api?username=rigvedrs&hide=contribs,prs&theme=github_dark)
+![Rigved's GitHub Stats](./stats/rigvedrs.svg)
 
 <!--
 **rigvedrs/rigvedrs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
