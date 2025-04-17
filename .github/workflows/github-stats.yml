@@ -8,29 +8,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v3
       
-      - name: Generate GitHub Stats
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GH_TOKEN }}
-          user: rigvedrs
-          template: classic
-          base: activity, community, repositories
-          config_display: large
-          plugin_lines: yes
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-          filename: github-stats.svg
-          
+      - name: Create stats directory
+        run: mkdir -p stats
+      
+      - name: Generate Stats Image
+        run: |
+          curl -o ./stats/github-stats.svg "https://github-readme-stats.vercel.app/api?username=rigvedrs&hide=contribs,prs&theme=dark&include_all_commits=true&count_private=true&token=${{ secrets.GH_TOKEN }}"
+      
       - name: Commit and Push
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add github-stats.svg
+          git add stats
           git commit -m "Update GitHub stats" || exit 0
           git push
