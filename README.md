@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![Rigved's GitHub Stats](./stats/rigvedrs.svg)
+![Rigved's GitHub Stats](./stats/github-stats.svg)
 
 <!--
 **rigvedrs/rigvedrs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
