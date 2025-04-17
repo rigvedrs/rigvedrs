@@ -8,22 +8,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_TOKEN }}
-      - name: Generate Stats Image
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: rigvedrs
-          hide: contribs,prs
-          theme: dark
-          include_all_commits: true
-          count_private: true
-          token: ${{ secrets.GH_TOKEN }}
-          output_format: svg
-          output_dir: ./stats
           
+      - name: Create stats directory
+        run: mkdir -p stats
+      
+      - name: Generate Stats Image
+        run: |
+          curl -L -o ./stats/github-stats.svg "https://github-readme-stats.vercel.app/api?username=rigvedrs&hide=contribs,prs&theme=dark&include_all_commits=true&count_private=true&token=${{ secrets.GH_TOKEN }}"
+      
       - name: Commit and Push
         run: |
           git config --global user.name "GitHub Actions"
