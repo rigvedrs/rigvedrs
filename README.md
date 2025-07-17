@@ -50,24 +50,6 @@ I'm a passionate **AI Developer** and **Machine Learning Engineer** currently pu
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-## 🎯 Featured Projects
-
-### 🔍 EigenCAM for YOLO V11
-**⭐ 200+ GitHub Stars**
-- Developed visualization package for YOLO V11 model attention regions
-- Supports classification, segmentation, and object detection tasks
-- Widely adopted by the computer vision community
-
-### 🏥 Complete MLOps Pipeline for Chest X-ray Analysis
-- Built end-to-end AI-assisted chest X-ray analysis system using YOLOv11-L
-- Implemented model serving with Streamlit frontend and Triton Backend Server
-- Optimized via ONNX and quantization with Grafana/Prometheus monitoring
-- Automated feedback loop with MinIO and LabelStudio integration
-
-### 🧠 Soothify: Voice-Based Mental Health Support
-- Developed 24/7 accessible voice-based emotional support companion
-- Implemented Hume AI for empathetic responses tailored to emotional states
-- Created scalable architecture with MongoDB for secure user data management
 
 ## 📊 GitHub Analytics
 
