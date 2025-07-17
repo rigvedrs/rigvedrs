@@ -80,10 +80,6 @@ I'm a passionate **AI Developer** and **Machine Learning Engineer** currently pu
   <img src="https://streak-stats.demolab.com/?user=rigvedrs&theme=radical" alt="GitHub Streak" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rigvedrs&theme=react-dark" alt="Activity Graph" />
-</div>
-
 ## 🏆 GitHub Trophies
 
 <div align="center">
