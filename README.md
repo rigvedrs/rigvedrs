@@ -73,7 +73,6 @@ I'm a passionate **AI Developer** and **Machine Learning Engineer** currently pu
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=rigvedrs&show_icons=true&theme=radical&hide=contribs" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rigvedrs&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
 <div align="center">
